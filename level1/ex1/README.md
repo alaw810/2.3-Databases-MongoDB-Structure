@@ -1,4 +1,4 @@
-# Exercise 1 – Client-Centered View
+# Exercise 1 – 🧑🏻 Client-Centered View
 
 In this exercise, the main perspective of the system is the **client**.  
 Each client stores their own information as well as the history of glasses they have purchased.
@@ -19,7 +19,7 @@ Each client stores their own information as well as the history of glasses they 
   - Represents glasses providers.
 
 - **clients.validation.json**
-  - JSON Schema validation that ensures `frame_type` can only be `"Floating"`, `"Pasta"`, or `"Metallic"`.
+  - JSON Schema validation that ensures `frame_type` can only be `"Rimless"`, `"Plastic"`, or `"Metallic"`.
 
 ## Diagram
 
