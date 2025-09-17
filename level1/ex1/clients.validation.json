@@ -1,0 +1,27 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    properties: {
+      sales: {
+        bsonType: 'array',
+        items: {
+          bsonType: 'object',
+          properties: {
+            glasses: {
+              bsonType: 'object',
+              properties: {
+                frame_type: {
+                  'enum': [
+                    'Rimless',
+                    'Plastic',
+                    'Metallic'
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
