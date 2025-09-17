@@ -1,0 +1,15 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    properties: {
+      frame_type: {
+        bsonType: 'string',
+        'enum': [
+          'Rimless',
+          'Plastic',
+          'Metallic'
+        ]
+      }
+    }
+  }
+}
