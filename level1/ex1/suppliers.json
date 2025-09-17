@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "68c921536f5b6ae1e64711d3"
+  },
+  "name": "Logionline S.L.U.",
+  "address": {
+    "street": "Calle Toreno",
+    "number": "5",
+    "floor": "1",
+    "door": "B",
+    "city": "Fuenlabrada",
+    "postal_code": "28947",
+    "country": "España"
+  },
+  "telephone": "687208194",
+  "fax": "914567891",
+  "nif": "B01953835"
+},
+{
+  "_id": {
+    "$oid": "68c921fe6f5b6ae1e64711d5"
+  },
+  "name": "Zeppelin Vision S.L.",
+  "address": {
+    "street": "Calle Chile",
+    "number": "7",
+    "floor": "1",
+    "door": "A",
+    "city": "Badajoz",
+    "postal_code": "06360",
+    "country": "España"
+  },
+  "telephone": "924531401",
+  "fax": "924567891",
+  "nif": "B06556716"
+}]

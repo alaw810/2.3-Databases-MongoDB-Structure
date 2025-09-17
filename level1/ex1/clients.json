@@ -1,0 +1,122 @@
+[{
+  "_id": {
+    "$oid": "68c941d16f5b6ae1e64711f0"
+  },
+  "name": "Antoni Gaudí",
+  "address": "Carrer de la Sagrada Família, 7, Barcelona",
+  "telephone": "600111222",
+  "email": "gaudi@example.com",
+  "register_date": {
+    "$date": "2024-01-10T00:00:00.000Z"
+  },
+  "recommended_by": null,
+  "sales": [
+    {
+      "date": {
+        "$date": "2024-02-20T15:30:00.000Z"
+      },
+      "employee_id": {
+        "$oid": "68c920186f5b6ae1e64711ce"
+      },
+      "glasses": {
+        "brand": "Rayban",
+        "graduation": {
+          "left": 1.5,
+          "right": 1.2
+        },
+        "glass_color": {
+          "left": "transparent",
+          "right": "transparent"
+        },
+        "frame_type": "Metallic",
+        "frame_color": "Bronze",
+        "price": 160,
+        "supplier_id": {
+          "$oid": "68c921fe6f5b6ae1e64711d5"
+        }
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c941d16f5b6ae1e64711f1"
+  },
+  "name": "Mercè Rodoreda",
+  "address": "Carrer de les Flors, 22, Barcelona",
+  "telephone": "600333444",
+  "email": "rodoreda@example.com",
+  "register_date": {
+    "$date": "2024-03-05T00:00:00.000Z"
+  },
+  "recommended_by": null,
+  "sales": [
+    {
+      "date": {
+        "$date": "2024-04-01T12:00:00.000Z"
+      },
+      "employee_id": {
+        "$oid": "68c920186f5b6ae1e64711ce"
+      },
+      "glasses": {
+        "brand": "Versace",
+        "graduation": {
+          "left": 0.7,
+          "right": 1
+        },
+        "glass_color": {
+          "left": "rose",
+          "right": "rose"
+        },
+        "frame_type": "Plastic",
+        "frame_color": "Red",
+        "price": 210,
+        "supplier_id": {
+          "$oid": "68c921fe6f5b6ae1e64711d5"
+        }
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68c941d16f5b6ae1e64711f2"
+  },
+  "name": "Joan Miró",
+  "address": "Passeig de Montjuïc, 18, Barcelona",
+  "telephone": "600555666",
+  "email": "miro@example.com",
+  "register_date": {
+    "$date": "2024-05-12T00:00:00.000Z"
+  },
+  "recommended_by": {
+    "$oid": "68c941d16f5b6ae1e64711f1"
+  },
+  "sales": [
+    {
+      "date": {
+        "$date": "2024-06-15T17:45:00.000Z"
+      },
+      "employee_id": {
+        "$oid": "68c920186f5b6ae1e64711ce"
+      },
+      "glasses": {
+        "brand": "Oakley",
+        "graduation": {
+          "left": 2,
+          "right": 2.3
+        },
+        "glass_color": {
+          "left": "blue",
+          "right": "blue"
+        },
+        "frame_type": "Rimless",
+        "frame_color": "Black",
+        "price": 185,
+        "supplier_id": {
+          "$oid": "68c921536f5b6ae1e64711d3"
+        }
+      }
+    }
+  ]
+}]
