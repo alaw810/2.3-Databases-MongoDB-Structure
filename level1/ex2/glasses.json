@@ -1,0 +1,99 @@
+[{
+  "_id": {
+    "$oid": "68ca77666f5b6ae1e6471205"
+  },
+  "brand": "Rayban",
+  "graduation": {
+    "left": 1,
+    "right": 1
+  },
+  "glass_color": {
+    "left": "transparent",
+    "right": "transparent"
+  },
+  "frame_type": "Metallic",
+  "frame_color": "Bronze",
+  "price": 150,
+  "supplier_id": {
+    "$oid": "68c921536f5b6ae1e64711d3"
+  },
+  "bought_by": [
+    {
+      "date": {
+        "$date": "2025-02-16T15:30:00.000Z"
+      },
+      "client_id": {
+        "$oid": "68c941d16f5b6ae1e64711f0"
+      },
+      "employee_id": {
+        "$oid": "68c920186f5b6ae1e64711ce"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68ca7baa6f5b6ae1e6471212"
+  },
+  "brand": "Versace",
+  "graduation": {
+    "left": 0.7,
+    "right": 1.1
+  },
+  "glass_color": {
+    "left": "rose",
+    "right": "rose"
+  },
+  "frame_type": "Plastic",
+  "frame_color": "Red",
+  "price": 210,
+  "supplier_id": {
+    "$oid": "68c921fe6f5b6ae1e64711d5"
+  },
+  "bought_by": [
+    {
+      "date": {
+        "$date": "2025-05-21T17:15:00.000Z"
+      },
+      "client_id": {
+        "$oid": "68c941d16f5b6ae1e64711f1"
+      },
+      "employee_id": {
+        "$oid": "68c920186f5b6ae1e64711ce"
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "68ca7cb46f5b6ae1e6471213"
+  },
+  "brand": "Oakley",
+  "graduation": {
+    "left": 2,
+    "right": 2.3
+  },
+  "glass_color": {
+    "left": "blue",
+    "right": "blue"
+  },
+  "frame_type": "Rimless",
+  "frame_color": "Black",
+  "price": 185,
+  "supplier_id": {
+    "$oid": "68c921fe6f5b6ae1e64711d5"
+  },
+  "bought_by": [
+    {
+      "date": {
+        "$date": "2025-06-30T19:44:00.000Z"
+      },
+      "client_id": {
+        "$oid": "68c941d16f5b6ae1e64711f2"
+      },
+      "employee_id": {
+        "$oid": "68c920186f5b6ae1e64711ce"
+      }
+    }
+  ]
+}]
