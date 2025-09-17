@@ -1,0 +1,33 @@
+# Archivos de sistema de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Archivos de sistema relacionados con volúmenes montados
+.Spotlight-V100
+.Trashes
+.fseventsd
+
+# Archivos temporales
+*.swp
+*.tmp
+*.log
+
+# Archivos de editor
+.vscode/
+.idea/
+
+# Node (solo si usas algo de npm en el futuro)
+node_modules/
+
+# Backups o exports
+*.bak
+*.dump
+*.tar
+*.zip
+*.7z
+
+
